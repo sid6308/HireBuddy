@@ -1,0 +1,40 @@
+@import "styles/variables.scss";
+.tableBody {
+  tr {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+  }
+  td {
+    border: 1px solid $color-grey-light;
+    padding: 10px;
+  }
+
+  tr:nth-child(even) {
+    background-color: $color-aliceBlue;
+  }
+
+  tr:nth-child(odd) {
+    background-color: $color-white;
+  }
+
+  tr:hover {
+    background-color: $color-grey-light;
+  }
+
+  tr:hover td {
+    border: 1px double $color-aliceBlue;
+  }
+
+  .more__btn {
+    background-color: $color-white;
+    border-radius: 50%;
+    border: 1px solid $color-coralRed;
+    color: $color-coralRed;
+    padding: 6px;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+  }
+}

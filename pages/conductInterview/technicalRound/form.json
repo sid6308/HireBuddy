@@ -1,0 +1,516 @@
+{
+  "React JS": {
+    "content": [
+      {
+        "label": "Basics",
+        "content": [
+          {
+            "question": "POV in how is react different from other similar libraries",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "JSX",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "JSX transpilation to ES5/6",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Props",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "VDom",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "React's Diffing Algorithim, Reconciliation and how DOM is updated",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Handling Events",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Lifecycle methods and Hooks",
+        "content": [
+          {
+            "question": "Different lifecycle methods and POV on Hooks",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "How useEffect is different from lifecycle methods ?",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Hooks like useEffect, useState, useReducer, useMemo, useRef etc.",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Composing and Organising Components",
+        "content": [
+          {
+            "question": "Different component organisation techniques",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Higher Order Components",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Render Prop Pattern",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Compound Component Pattern",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Custom Hooks",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "POV on how custom hooks can help in better component organisation, composition and reusability.",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Isolation of component responsibilities",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "State Management",
+        "content": [
+          {
+            "question": "Flow of data in react",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "POV on use cases of local state, context and reducer patterns",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Redux - Refer Redux and related sections below",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Working with Remote Data in React",
+        "content": [
+          {
+            "question": "Different techniques to handle and manage remote data in react.",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "GraphQL and React",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Apollo Client, graphql-hooks etc",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Using react-query, useSwr etc",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Routing",
+        "content": [
+          {
+            "question": "POV on SPA and MPA",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "React Router, Next Router",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "SSR and SSG",
+        "content": [
+          {
+            "question": "POV on SSR and what is typical catches when working with react on the server.",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "SSR without using any library",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Next JS - Setup, Code Organisation,Routing,  Dynamic Routes, Pre-rendering etc",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Static Site Generation using Next JS, Gatsby etc",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Organising and managing component styles",
+        "content": [
+          {
+            "question": "How different style organisation techniques like CSS Modules, Inline CSS, Styled components etc work with React",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Testing",
+        "content": [
+          {
+            "question": "Unit and Integration testing",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Tooling",
+        "content": [
+          {
+            "question": "Linting &  code formatting (Prettier, eslint etc)",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Testing (Jest, react-testing-lib, enzyme etc)",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Build tools (Webpack, Rollup, Parcel etc)",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Type Checking and handling props",
+        "content": [
+          {
+            "question": "Proptypes, Flow, TS",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Default Props",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "React Component Performance",
+        "content": [
+          {
+            "question": "Monitoring and avoiding re-renders",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Perf debugging using react and chrome developer tools",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Error Handling",
+        "content": [
+          {
+            "question": "Error Boundries",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Code Splitting",
+        "content": [
+          {
+            "question": "React Suspense and Lazy",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "Production Code best practices",
+        "content": [
+          {
+            "question": "Using React's Prod Build",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Splitting Vendor files",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Babel and its role",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "State management libraries and their ecosystem",
+        "content": [
+          {
+            "question": "POV on different state management libraries and their decreasing need.",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "REDUX",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "How redux works ?",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Actions, reducers and Store",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Need of middlewares in redux",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Handling Side effects - Saga, Thunk",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Component / Container Patterns",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Re-select library",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      }
+    ],
+    "value": 0
+  },
+  "Core XT": {
+    "content": [
+      {
+        "label": "HTML | Templating",
+        "content": [
+          {
+            "question": "Request lifecycle, DOM and CSSOM",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Sementic HTML and accessibility guidelines",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Forms and Validations",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Media - Responsive Images, Audio and Video",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Browser Side Storage, Workers, and Caching- Local, Session, Cookies, IndexDb, WebSQL",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Service Workers, Web Workers",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "SEO basics",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "CSS / processors & Responsive",
+        "content": [
+          {
+            "question": "Rules, Selectors and Property values, Cascading, Inheritance, Specificity",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Responsive Design (Mobile and Desktop first), Media Queries",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Layout -  [float, flex, grid], display, postitioning",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Animations and transalations- Basics, SVG",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Processors / Preprocessors, Frameworks, CSS-in-JS",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      },
+      {
+        "label": "OOJS / Functional JS",
+        "content": [
+          {
+            "question": "Variables, Scope, Data Types, operators, loops, if statements, error handling  and functions. Execution Context (this). [Call, Apply, Bind]",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Differentiating factors in ES5 and ES6",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Events and Event Handling, DOM manupilation",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Object Prototype, Prototypal Inheritance, Closure",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Async Programming - Event Loop and how it works, Macro and Micro tasks,Callbacks and setTimeOut, Promises, chaining promises, [Promise.all, Promise.race ], error handling, async / await",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Testing: POV on different type of tests, Different libraries (TL, Jest, Enzyme, Karma, Jasmine)",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Patterns, Module Systems & Principles - Singleton, Factory functions, Module, Prototype, PubSub, ObservableCommon JS, UMD, AMD 12-factor app, SOLID, DRY principles",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "FUNCTIONAL PROGRAMMING: Pure Functions / Side Effects / Purifying closures, Point-free style, Composition / Compound functions, Immutability, Map / Reduce / Filter, Higher-order functions, Currying / Composing",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "PWA - App Manifest, Caching & Service Workers, Background Sync, Push Notifications, Workbox",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Tooling:Webpack / Parcel / Rollup - config from-ground setup, Code Splitting, Tree Shaking, Fedration, Loaders and plugins",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Transpilation using tools like Babel",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Understands GIT hooks and can use them",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "Code bundling/minification/production ready assets using Webpack",
+            "value": 0,
+            "feedback": ""
+          },
+          {
+            "question": "ESLint, Husky and other static code analysis tools",
+            "value": 0,
+            "feedback": ""
+          }
+        ],
+        "value": 0
+      }
+    ],
+    "value": 0
+  }
+}

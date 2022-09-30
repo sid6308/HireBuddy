@@ -1,0 +1,23 @@
+{
+  "candidate_careerStage": {
+    "label": "Sr Associate L2",
+    "value": "srAssociateL2"
+  },
+  "date": "2022-09-30",
+  "candidate_firstname": "arun",
+  "candidate_lastname": "kumar",
+  "phone": "8798797",
+  "candidate_email": "arun@gmail.com",
+  "oracleID": 10091037,
+  "first_name": "Siddharth",
+  "last_name": "Kumar",
+  "email": "siddharth.kumar@publicissapient.com",
+  "career_stage": "ATL2",
+  "role": "member",
+  "recommendedCareerStage": {
+    "label": "Sr Associate L2",
+    "value": "srAssociateL2"
+  },
+  "outcome": { "label": "Selected", "value": "selected" },
+  "id": "ec192083-c0d8-4543-adfd-d28ffd309e5b"
+}

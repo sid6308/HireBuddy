@@ -1,0 +1,51 @@
+@import 'styles/variables.scss';
+.technicalRound{
+    margin: 30px;
+
+
+    &__headingWrapper{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 10px;
+
+
+        &__score{
+           color: $color-coralRed;
+        }
+       
+    }
+
+
+    &__subHeading{
+        margin-top: 50px;
+        font-size: 20px;
+    }
+
+
+    &__subTopicWrapper{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        column-gap : 20px;
+        &__question{
+            width: 40%;
+        }
+
+
+        &__inputField{
+            width: 60%;
+            display: flex;
+            justify-content: space-around;
+            column-gap: 20px;
+            align-items: center;
+        }
+    }
+
+    &__btnWrapper {
+        margin: 50px auto;
+        float: right;
+      }
+  
+}

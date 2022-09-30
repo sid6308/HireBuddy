@@ -1,0 +1,85 @@
+{
+  "experience": {
+    "isRequired": true,
+    "type": "number",
+    "value": "",
+    "error": "",
+    "name": "experience",
+    "placeholder": "Enter the Experience",
+    "label": "Experience"
+  },
+  "recommendedCareerStage": {
+    "isRequired": true,
+    "type": "dropdown",
+    "value": "",
+    "error": "",
+    "name": "recommendedCareerStage",
+    "options": [
+      { "label": "Junior Associate", "value": "juniorAssociate" },
+      { "label": "Associate L1", "value": "associateL1" },
+      { "label": "Associate L2", "value": "associateL2" },
+      { "label": "Sr Associate L1", "value": "srAssociateL1" },
+      { "label": "Sr Associate L2", "value": "srAssociateL2" },
+      { "label": "Manager", "value": "manager" },
+      { "label": "Sr Manager", "value": "srManager" }
+    ],
+    "isMultiple": false,
+    "label": "Recommended Career Stage",
+    "placeholder": "Select Career Stage"
+  },
+  "outcome": {
+    "isRequired": true,
+    "type": "dropdown",
+    "value": "",
+    "error": "",
+    "name": "outcome",
+    "options": [
+      { "label": "Selected", "value": "selected" },
+      { "label": "Rejected", "value": "rejected" }
+    ],
+    "isMultiple": false,
+    "label": "Outcome",
+    "placeholder": "Choose Outcome"
+  },
+  "trainable": {
+    "isRequired": true,
+    "type": "dropdown",
+    "value": "",
+    "error": "",
+    "name": "trainable",
+    "options": [
+      { "label": "Yes", "value": "yes" },
+      { "label": "No", "value": "no" }
+    ],
+    "isMultiple": false,
+    "label": "Trainable",
+    "placeholder": "Choose Trainable"
+  },
+  "trainings": {
+    "isRequired": true,
+    "type": "dropdown",
+    "value": "",
+    "error": "",
+    "name": "trainings",
+    "options": [
+      { "label": "HTML", "value": "html" },
+      { "label": "CSS", "value": "css" },
+      { "label": "OOJS - Advanced", "value": "oojs" },
+      { "label": "Functional JS - Advanced", "value": "functionalJs" },
+      { "label": "ReactJS - Advanced", "value": "react" }
+    ],
+    "isMultiple": true,
+    "label": "Trainings",
+    "placeholder": "Choose Trainings"
+  },
+  "feedback": {
+    "isRequired": true,
+    "type": "textarea",
+    "value": "",
+    "error": "",
+    "name": "feedback",
+    "placeholder": "Enter the Feedback",
+    "label": "Feedback",
+    "minLength": "400"
+  }
+}

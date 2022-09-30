@@ -1,0 +1,49 @@
+@import "styles/variables.scss";
+
+.input {
+  width: 100%;
+  label {
+    font-weight: 300;
+    text-transform: capitalize;
+  }
+  height: 100%;
+
+  &__textarea{
+    height: 100% !important;
+  }
+  &__textBox {
+    padding: 0 10px;
+    outline: none;
+    width: 100%;
+    border: 1px solid $color-gallery;
+    box-shadow: 0 0 3px $color-gallery;
+    font-family: "Hind", sans-serif;
+    border-radius: 5px;
+    height: 40px;
+
+    &__errorBorder {
+      border: 1.5px solid $color-coralRed !important;
+    }
+
+    &__readOnly {
+      pointer-events: none;
+    }
+  }
+  &__mandatory {
+    color: $color-coralRed;
+  }
+
+  &__error {
+    color: $color-coralRed;
+    font-size: 14px;
+    position: absolute;
+  }
+
+  input[type="file"] {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    border-radius: 0;
+    height: 25px;
+  }
+}

@@ -1,0 +1,68 @@
+@import "styles/variables.scss";
+.tableHead {
+  //display: flex;
+  th {
+    text-align: center;
+    background-color: $color-coralRed;
+    color: $color-white;
+    border: 1px solid $color-grey-light;
+    padding: 10px 36px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+
+    .columnHeader {
+      display: flex;
+      align-items: center;
+
+      // .content {
+      //   flex: 1 1 178px;
+      // }
+
+      .arrow {
+        display: inline-block;
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        padding: 10px;
+        font-size: 28px;
+        font-weight: 300;
+        cursor: pointer;
+
+        &__default {
+          opacity: 0.5;
+
+          &::before {
+            content: "\2039";
+          }
+
+          &::after {
+            content: "\203A";
+          }
+        }
+
+        &__asc {
+          &::before {
+            content: "\2039";
+          }
+          &::after {
+            content: "\203A";
+            opacity: 0.5;
+          }
+        }
+
+        &__desc {
+          &::before {
+            content: "\2039";
+            opacity: 0.5;
+          }
+          &::after {
+            content: "\203A";
+          }
+        }
+      }
+    }
+  }
+}

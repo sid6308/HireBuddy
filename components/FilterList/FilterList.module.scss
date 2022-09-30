@@ -1,0 +1,22 @@
+.filter {
+  display: flex;
+  align-items: center;
+
+  // &__label {
+  //   padding: 10px;
+  //   //flex: 1 0 10%;
+  // }
+
+  &__dropdown {
+    padding: 16px;
+    display: flex;
+
+    & > * {
+      margin-right: 16px;
+      //justify-content: space-around;
+      //width: 60%;
+      flex: 0 0 200px;
+      //width: 30%;
+    }
+  }
+}

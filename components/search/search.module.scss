@@ -1,0 +1,97 @@
+@import "styles/variables.scss";
+
+.search {
+
+  
+
+    position: relative;
+
+    &__mandatory{
+      color: $color-coralRed;
+    }
+
+    &__label{
+      font-weight: 300;
+    }
+  &__input {
+    position: relative;
+
+    &__searchIcon {
+      padding: 10px;
+      position: absolute;
+      top: 4px;
+      color: $color-coralRed;
+    }
+
+    &__closeIcon {
+      padding: 10px;
+      position: absolute;
+      font-size: 18px;
+      top: 4px;
+      right: 0;
+      cursor: pointer;
+      color: $color-black;
+    }
+
+    &__textbox {
+      padding: 10px 30px 10px;
+      border: 1px solid $color-gallery;
+      outline: none;
+      font-family: "Hind", sans-serif;
+      font-size: 15px;
+      border-radius: 5px;
+      box-shadow: 0 0 3px $color-gallery;
+      width: 100%;
+    }
+
+    &__errorBorder{
+      border: 1.5px solid $color-coralRed;
+    }
+
+    &__error{
+      color: $color-coralRed;
+        font-size: 14px;
+        position: absolute;
+    }
+  }
+
+  &__list {
+    position: absolute;
+    background-color: $color-white;
+    border: 1px solid $color-gallery;
+    min-height: 50px;
+    max-height: 200px;
+    overflow: auto;
+    width: 100%;
+
+    &__loader{
+        margin: 10px auto;
+    }
+
+    &__noData{
+        text-align: center;
+        margin: 10px;
+    }
+
+    &__listWrapper {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .listWrapper {
+      &__item {
+        padding: 10px;
+        cursor: pointer;
+        border-bottom: 1px solid $color-gallery;
+        font-weight: 300;
+        &:last-child{
+            border: none;
+        }
+        &:hover {
+          background-color: $color-aliceBlue;
+        }
+      }
+    }
+  }
+}

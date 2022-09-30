@@ -1,0 +1,28 @@
+@import "styles/variables.scss";
+
+.buttonContainer {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.solidDefault {
+  background: #fe414d;
+}
+.solidDisabled {
+  color: #ffffff;
+}
+.hollowDefault {
+  background: white;
+  color: $color-coralRed;
+  border: 1.5px solid $color-coralRed;
+}
+.hollowDisabled {
+  color: #fe414d;
+}

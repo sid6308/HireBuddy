@@ -1,0 +1,10 @@
+.interviewList {
+  width: 100%;
+  overflow-x: auto;
+  z-index: 1;
+
+  &__table {
+    border-collapse: collapse;
+    //border: 1px solid red;
+  }
+}

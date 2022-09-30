@@ -1,0 +1,35 @@
+@import 'styles/variables.scss';
+
+.loaderWrapper {
+   
+    &__loader {
+    
+        border: 4px solid $color-gallery;
+        border-radius: 50%;
+        border-top: 4px solid $color-coralRed;
+        width: 35px;
+        height: 35px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+    }
+
+    &__smallLoader {
+        border: 2px solid #eeeeee;
+        border-top: 2px solid #FE414D;
+        width: 20px;
+        height: 20px;
+    }
+
+ 
+    
+    @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(360deg); }
+      }
+      
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+    
+}

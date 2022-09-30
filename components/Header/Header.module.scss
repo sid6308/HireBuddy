@@ -1,0 +1,70 @@
+@import "styles/variables.scss";
+.header {
+  background-color: $color-gallery;
+  height: 70px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+
+  &__buddy {
+    color: $color-coralRed;
+  }
+
+  &__logo {
+    margin-left: 20px;
+    width: 20%;
+    cursor: pointer;
+  }
+
+  &__menu {
+    display: flex;
+    list-style: none;
+    width: 50%;
+
+    &__item {
+      margin-left: 30px;
+      font-size: 17px;
+      font-weight: 400;
+
+      &__active {
+        color: $color-coralRed;
+        border-bottom: 2px solid $color-coralRed;
+      }
+      &:hover {
+        color: $color-coralRed;
+      }
+    }
+  }
+
+  &__profile {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    &__user {
+      font-weight: bold;
+    }
+
+    &__btn {
+      margin: 0 10px 0 20px;
+      cursor: pointer;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    &__menu {
+      display: none;
+    }
+
+    &__profile {
+      &__user {
+        display: none;
+      }
+    }
+  }
+}
